@@ -16,7 +16,7 @@ hr{
     width: 80%;
     height: 400px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 50px 0 20px 0;
     padding: 10px;
     border-radius: 10px;
 }
@@ -109,6 +109,27 @@ button:hover{
     margin-right: 20px;
     border-radius: 7px;
     padding: 15px;
+}
+.add-border{
+    border: none;
+}
+.flag-main{
+    
+}
+.flag{
+    display: flex;
+}
+.flag img{
+    width: 40%;
+    height:100px;
+    margin-top: 40px;
+}
+.flag h1{
+    margin-top: 80px;
+    
+}
+.info-flog{
+    margin-top: 40px;
 }
 .prent-section{
     display: grid;
@@ -213,7 +234,7 @@ margin: 15px 15px;
         height: 350px;
     }
     .paleyer-img img{
-        width: 100%;
+        width: 120%;
     }
     .paleyer-benner{
         display: flex;
@@ -236,7 +257,7 @@ margin: 15px 15px;
     }
     .menu-section{
         display: none;
-        d
+        
     }
     .tab-responsive-menu{
         display: block;
@@ -309,7 +330,7 @@ margin: 15px 15px;
     .container{
         width: 80%;
         display: grid;
-        grid-template-cl: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         margin: auto;
         padding: 10px;
         
