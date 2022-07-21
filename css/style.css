@@ -116,17 +116,16 @@ margin: 15px 15px;
 /* .................footer..................... */
 .fmain{
     background-color: black;
-    width: 1600px;
+    width: 100%;
     height: 444px;
 }
-.fheader{
-    color: #E8E8E8;
-    width: 100px;
-    margin: auto;
+.goal{
+    color: #ffff;
 }
 hr{
-    margin: 200px 5px0;
-    width: 50%;
+    margin: 200px 170px;
+    width: 60%;
     padding-right: 50px;
+    color: #FFFFFF;
     
 }
