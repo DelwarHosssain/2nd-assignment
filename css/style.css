@@ -33,6 +33,11 @@ padding: 15px 20px 20px 15px ;
     padding: 10px 15px;
     margin-top: 10px;
     border-radius:7px;
+    font-size: 18px;
+    
+}
+button:hover{
+    color: rgb(155, 155, 155, 1);
     
 }
 .paleyer-img{
@@ -41,5 +46,87 @@ padding: 15px 20px 20px 15px ;
 .paleyer-img img{
     width: 73%;
     margin-bottom: 200px;
+    
+}
+/* ---------------------------
+        2nd section
+----------------------------*/
+.main-container{
+    margin-top: 20px;
+}
+.container{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: 10PX;
+    
+}
+
+.menu-section{
+    width: 22%;
+    background-color: black;
+    height: 250px;
+    margin-right: 20px;
+    border-radius: 7px;
+}
+.prent-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.grit-container{
+    width: 80%;
+}
+.grit-section{
+    border: #E8E8E8 solid 1px ;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+}
+.menu{
+    text-align: center;
+    background-color: #ffff;
+    margin: 27px 10px 20px 21px;
+    width: 70%;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+.grit-image img{
+    width: 100%;
+    height:150px;
+}
+.Transfer{
+    border: black solid 1px ;
+    width: 80px;
+    text-align: center;
+    color: black;
+    border-radius: 7px;
+    
+}
+.para{
+margin: 15px 15px;
+}
+.clock{
+    display: flex;
+}
+.clock i{
+    margin-left: 20px;
+}
+/* .................footer..................... */
+.fmain{
+    background-color: black;
+    width: 1600px;
+    height: 444px;
+}
+.fheader{
+    color: #E8E8E8;
+    width: 100px;
+    margin: auto;
+}
+hr{
+    margin-: 200px 5px0;
+    width: 50%;
+    padding-right: 50px;
     
 }
