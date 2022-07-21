@@ -207,13 +207,13 @@ margin: 15px 15px;
     color: red;
 }
 
-/* For tap responsive  medime */
-@media only screen and (max-width: 768px) {
+/* For tap responsive  m */
+@media only screen and (max-width: 800px) {
     .benner-info{
-        height: 330px;
+        height: 350px;
     }
     .paleyer-img img{
-        width: 120%;
+        width: 100%;
     }
     .paleyer-benner{
         display: flex;
@@ -250,11 +250,21 @@ margin: 15px 15px;
         justify-content: center;
 
     }
+    .container{
+        display: inline-block;
+    }
     .menu{
         width: 100%;
     }
     .grit-container{
         margin-top: 100px;
+    }
+    .prent-section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin: 0 50px;
+        
     }
 }
 @media only screen and (max-width: 576px) {
