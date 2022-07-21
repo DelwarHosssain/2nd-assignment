@@ -108,6 +108,7 @@ button:hover{
     height: 270px;
     margin-right: 20px;
     border-radius: 7px;
+    padding: 15px;
 }
 .prent-section{
     display: grid;
@@ -206,7 +207,7 @@ margin: 15px 15px;
     color: red;
 }
 
-/* For tap responsive  */
+/* For tap responsive  medime */
 @media only screen and (max-width: 768px) {
     .benner-info{
         height: 330px;
@@ -235,6 +236,7 @@ margin: 15px 15px;
     }
     .menu-section{
         display: none;
+        d
     }
     .tab-responsive-menu{
         display: block;
@@ -255,3 +257,111 @@ margin: 15px 15px;
         margin-top: 100px;
     }
 }
+@media only screen and (max-width: 576px) {
+    .benner-info{
+        width: 334px;
+        height: 472px;
+        padding: 9px 0 36px 50px;
+    }
+    .paleyer-img img{
+        width: 140%;
+    }
+    .paleyer-benner{
+        display: block;
+        padding: 15px;
+        height: 100pxpx;
+        margin: 0px auto;
+        
+    }
+    .paleyer-data h1{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .paleyer-data {
+        width: 64%;
+        margin-bottom: 124px;
+    }
+    .paleyer-data p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    /* palyer  */
+    .main-container{
+        margin-top: 20px;
+    }
+    .container{
+        width: 80%;
+        display: grid;
+        grid-template-cl: repeat(1, 1fr);
+        margin: auto;
+        padding: 10px;
+        
+        
+    }
+    .menu-section-2{
+        display: inline-block;
+        flex-direction: column;
+        margin: 0 60px;
+    }
+    .menu-section{
+        width: 22%;
+        background: #161616;
+        border-radius: 10px;
+        height: 270px;
+        margin-right: 20px;
+        border-radius: 7px;
+        padding: 15px;
+    }
+    .prent-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        margin: 0 50px;
+        
+    }       
+    .menu{
+        padding: 8px;
+        width: 50%;
+    }
+    /* footer */
+    .footer-menu{
+
+        width: 100%;
+        margin: 0 auto;
+        display: inline-block;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .footer-menu li{
+        list-style-type: none;
+        text-align: center;
+    }
+    .footer-menu li a{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration: none;
+        color: #fff;
+        padding: 0px 20px;
+        transition: 0.4s all ease;
+    }
+    .footer-menu li a:hover{
+        color: red;
+    }
+    .footer-section{
+        background-color: #000;
+        width: 100%;
+        height: 350px;
+        margin-top: 100px;
+    }
+}
+/* mobile End */
